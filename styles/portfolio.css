@@ -1,0 +1,31 @@
+h1 {
+  color:;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+p {
+  color:black;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Untertitel {
+  color:green;
+  font-family: 'Signika', sans-serif;
+  font-size: 30px;
+}
+.big {
+  color:;
+  font-size: 30px;
+}
+.lead {
+  font-size: 40px;
+}
+.box {
+  background-color: gray;
+  width: 400px;
+  height: 600px;
+}
+.auszeichnung {
+  color:red;
+}
