@@ -1,16 +1,30 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
+  font-family: 'Open Sans', sans-serif, 'Bungee Inline', cursive, 'Bungee Hairline', cursive, 'Bungee Outline', cursive;
+  font-size: 16px;
   line-height: 1.4;
+  font-weight: 400;
 }
 
 h1 {
-  font-family: 'Abril Fatface', cursive;
-  font-size: 2.8rem;
-  font-kerning: 3.0rem;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 8.0em;
+  line-height: 0.1;
+  font-weight: 400;
 }
 
+h2 {
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 8.0em;
+  line-height: 0.1;
+  font-weight: 400;
+}
 
+h3 {
+  font-family: 'Bungee Outline', cursive;
+  font-size: 8.0em;
+  line-height: 0.1;
+  font-weight: 400;
+}
 
 img {
   width: 100%;
