@@ -1,19 +1,28 @@
-h1 {
-  color:;
-  font-family: 'Lobster', cursive;
-  font-size: 50px;
-}
-p {
-  color:black;
-  font-size: 14px;
+body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  line-height: 1.4;
 }
 
-.Untertitel {
-  color:green;
-  font-family: 'Signika', sans-serif;
-  font-size: 30px;
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.8rem;
+  font-kerning: 3.0rem;
 }
+
+
+
+img {
+  width: 100%;
+}
+
+
+.container {
+  width: 750px;
+  margin: 0;
+  height: auto;
+}
+
 .big {
   color:;
   font-size: 30px;
