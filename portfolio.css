@@ -1,3 +1,5 @@
+//* TYPOGRAPHY *//
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -27,55 +29,57 @@ header p {
   margin: 0;
 }
 
+//* Padding and stuff *//
+
+h1,
+h4.grundtext,
+h5.grundtext,
+p.grundtext,
+ul.grundtext,
+li.grundtext {
+  padding-right:calc(16% + 1vw);
+  padding-left:calc(12% + 1vw);
+}
+
+//* Grösse und Abstände *//
+
 h1 {
   font-size: 60px;
   font-size: 4vw;
   font-size:calc(100% + 4vw);
-  padding-left:calc(2% + 1vw);
   padding-top: 1.5vw;
-  padding-right: 10vw;
 }
 
 h4.grundtext {
   font-size: 38px;
   font-size: 1.5vw;
   font-size:calc(100% + 1.5vw);
-  padding-left:calc(12% + 1vw);
   padding-top: 8vw;
-  padding-right: 10vw;
 }
 
 h5.grundtext {
   font-size: 24px;
   font-size: 1vw;
   font-size:calc(100% + 1vw);
-  padding-left:calc(12% + 1vw);
   padding-top: 8vw;
-  padding-right: 10vw;
 }
 
 p.grundtext {
   font-size: 16px;
   font-size: 0.6vw;
   font-size:calc(100% + 0.6vw);
-  padding-left:calc(12% + 1vw);
   padding-top: 1.5vw;
-  padding-right: 10vw;
 }
 
 ul.grundtext {
-  padding-left:calc(15% + 1.5vw);
   padding-top: 1.5vw;
-  padding-right: 10vw;
 }
 
 li.grundtext {
   font-size: 16px;
   font-size: 0.6vw;
   font-size:calc(100% + 0.6vw);
-  padding-left:calc(1% + 0.1vw);
   padding-top: 1.5vw;
-  padding-right: 10vw;
 }
 
 a {
