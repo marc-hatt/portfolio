@@ -31,12 +31,7 @@ header p {
 
 //* Padding and stuff *//
 
-h1,
-h4.grundtext,
-h5.grundtext,
-p.grundtext,
-ul.grundtext,
-li.grundtext {
+h1, h4.grundtext, h5.grundtext, p.grundtext, ul.grundtext, li.grundtext {
   padding-right:calc(16% + 1vw);
   padding-left:calc(12% + 1vw);
 }
