@@ -36,8 +36,8 @@ h1 {
   font-size: 4vw;
   font-size:calc(100% + 4vw);
   padding-top: 1.5vw;
-  padding-right:calc(16% + 1vw);
-  padding-left:calc(12% + 1vw);
+  padding-left:calc(2% + 1vw);
+  padding-right: 10vw;
 }
 
 h4.grundtext {
