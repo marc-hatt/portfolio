@@ -43,6 +43,7 @@ video {
   padding-bottom: 2vw;
   padding-right:calc(16% + 1vw);
   padding-left:calc(12% + 1vw);
+  box-sizing: inherit;
 }
 
 h1.lab {
