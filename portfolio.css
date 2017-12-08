@@ -33,7 +33,7 @@ h1 {
   font-size:calc(100% + 4vw);
   padding-left:calc(2% + 1vw);
   padding-top: 1.5vw;
-  padding-right: 2vw;
+  padding-right: 10vw;
 }
 
 h4.grundtext {
@@ -42,7 +42,7 @@ h4.grundtext {
   font-size:calc(100% + 1.5vw);
   padding-left:calc(12% + 1vw);
   padding-top: 8vw;
-  padding-right: 5vw;
+  padding-right: 10vw;
 }
 
 h5.grundtext {
@@ -51,7 +51,7 @@ h5.grundtext {
   font-size:calc(100% + 1vw);
   padding-left:calc(12% + 1vw);
   padding-top: 8vw;
-  padding-right: 5vw;
+  padding-right: 10vw;
 }
 
 p.grundtext {
@@ -60,13 +60,13 @@ p.grundtext {
   font-size:calc(100% + 0.6vw);
   padding-left:calc(12% + 1vw);
   padding-top: 1.5vw;
-  padding-right: 5vw;
+  padding-right: 10vw;
 }
 
 ul.grundtext {
   padding-left:calc(15% + 1.5vw);
   padding-top: 1.5vw;
-  padding-right: 6vw;
+  padding-right: 10vw;
 }
 
 li.grundtext {
@@ -75,7 +75,7 @@ li.grundtext {
   font-size:calc(100% + 0.6vw);
   padding-left:calc(1% + 0.1vw);
   padding-top: 1.5vw;
-  padding-right: 0.5vw;
+  padding-right: 10vw;
 }
 
 a {
