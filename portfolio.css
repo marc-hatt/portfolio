@@ -54,6 +54,10 @@ p.grundtext {
   padding-right: 5vw;
 }
 
+a {
+  color: inherit;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
