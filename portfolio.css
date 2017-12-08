@@ -146,6 +146,7 @@ a {
 }
 
 div.grundtext {
+  max-width: 1000px;
   padding-bottom: 10vw;
 }
 
