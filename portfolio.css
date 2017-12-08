@@ -60,7 +60,7 @@ h5.grundtext {
   font-size: 24px;
   font-size: 1vw;
   font-size:calc(100% + 1vw);
-  padding-top: 8vw;
+  padding-top: 3vw;
   padding-right:calc(16% + 1vw);
   padding-left:calc(12% + 1vw);
 }
