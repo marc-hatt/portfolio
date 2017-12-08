@@ -29,9 +29,16 @@ header p {
   margin: 0;
 }
 
-//* Grösse und Abstände *//
-
 h1 {
+  font-size: 60px;
+  font-size: 4vw;
+  font-size:calc(100% + 4vw);
+  padding-top: 1.5vw;
+  padding-left:calc(2% + 1vw);
+  padding-right: 10vw;
+}
+
+h1.lab {
   font-size: 60px;
   font-size: 4vw;
   font-size:calc(100% + 4vw);
