@@ -145,6 +145,10 @@ a {
   margin: 0 0 30px;
 }
 
+.grundtext {
+  padding-bottom: 10vw;
+}
+
 footer {
   font-weight: 600;
   font-size: 12px;
