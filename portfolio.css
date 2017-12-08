@@ -38,6 +38,13 @@ h1 {
   padding-right: 10vw;
 }
 
+video {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-right:calc(16% + 1vw);
+  padding-left:calc(12% + 1vw);
+}
+
 h1.lab {
   font-size: 60px;
   font-size: 4vw;
@@ -146,7 +153,7 @@ a {
 }
 
 div.grundtext {
-  max-width: 1000px;
+  max-width: 1400px;
   padding-bottom: 10vw;
 }
 
