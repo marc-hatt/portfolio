@@ -8,6 +8,7 @@ body {
 header {
   padding-top: 0.05%;
   padding-bottom: 0.6%;
+  z-index: 10;
 }
 
 header .row,
@@ -260,4 +261,5 @@ footer ul {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 9;
 }
