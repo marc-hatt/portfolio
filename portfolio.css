@@ -26,6 +26,7 @@ header h1 {
   font-weight: 700;
   margin: 0;
   padding-left:calc(2% + 1vw);
+  spacing: 0.3;
 }
 
 header p {
@@ -40,6 +41,7 @@ h1 {
   padding-top: 1.5vw;
   padding-left:calc(2% + 1vw);
   padding-right: 10vw;
+  spacing: 0.3;
 }
 
 video {
@@ -128,6 +130,7 @@ a {
   font-weight: 700;
   text-align: center;
   margin: auto;
+  letter-spacing: 2px;
 }
 
 .jumbotron h3 {
@@ -178,14 +181,21 @@ footer {
 footer .col-sm-12 {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 footer ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  float: none;
 }
 
 .experimentelles {
-  display: flex;
+  display: block;
   background-size: cover;
   background-color: #70a288;
   color: #04395e;
@@ -270,16 +280,43 @@ footer ul {
   z-index: 9;
   background-color: white;
   color: black;
-  padding-top: 0em;
-  padding-bottom: 0em;
-  padding-left: 0.275em;
+  padding-left: calc(0.5% + 0.1vw);
   position: fixed;
   width: 100%;
   font-size: calc(100% + 1.5vw);
   font-weight: 700;
+  height: calc(8% + 1vw);
 }
 
 iframe {
   display: flex;
   margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 500px){
+  iframe {
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    padding: 0
+  }
+  li.grundtext, ul.grundtext, p.grundtext, h5.grundtext, h4.grundtext {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .back {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: white;
+    color: black;
+    padding-left: calc(3% + 1.1vw);
+    position: fixed;
+    width: 100%;
+    font-size: calc(100% + 1.5vw);
+    font-weight: 700;
+    height: calc(6% + 1vw);
+  }
 }
