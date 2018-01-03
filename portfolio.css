@@ -278,3 +278,8 @@ footer ul {
   font-size: calc(100% + 1.5vw);
   font-weight: 700;
 }
+
+iframe {
+  display: flex;
+  margin: 0 auto;
+}
