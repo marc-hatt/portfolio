@@ -1,8 +1,17 @@
 //* TYPOGRAPHY *//
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Fira Sans';
+  font-weight: 400;
+  color: #031d44;
+  line-height: 1.5;
+  font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
+  background-color: rgba(218, 183, 133, 0.2) !important;
+  background: rgba(218, 183, 133, 0.2) !important;
 }
 
 header {
@@ -21,9 +30,10 @@ footer .row {
 }
 
 header h1 {
-  font-size: 20px;
+  font-family: "Playfair Display";
   font-size:calc(100% + 1.5vw);
   font-weight: 700;
+  color: #031d44;
   margin: 0;
   padding-left:calc(2% + 1vw);
   spacing: 0.3;
@@ -35,12 +45,13 @@ header p {
 }
 
 h1 {
-  font-size: 60px;
-  font-size: 4vw;
+  font-family: "Playfair Display";
   font-size:calc(100% + 4vw);
+  color: #031d44;
+  font-weight: 700;
   padding-top: 1.5vw;
-  padding-left:calc(2% + 1vw);
-  padding-right: 10vw;
+  padding-left:calc(5% + 1vw);
+  padding-right:calc(5% + 1vw);
   spacing: 0.3;
 }
 
@@ -52,62 +63,90 @@ video {
   box-sizing: inherit;
 }
 
-h1.lab {
-  font-size: 60px;
-  font-size: 4vw;
-  font-size:calc(100% + 4vw);
-  padding-top: 1.5vw;
-  padding-left:calc(2% + 1vw);
-  padding-right: 10vw;
-}
-
 h4.grundtext {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  color: #031d44;
   font-size: 38px;
   font-size: 1.5vw;
   font-size:calc(100% + 1.5vw);
-  padding-top: 8vw;
+  padding-top: 5vw;
   padding-right:calc(16% + 1vw);
   padding-left:calc(12% + 1vw);
 }
 
 h5.grundtext {
-  font-size: 24px;
-  font-size: 1vw;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  color: #031d44;
   font-size:calc(100% + 1vw);
-  padding-top: 3vw;
+  padding-top: 2.5vw;
   padding-right:calc(16% + 1vw);
   padding-left:calc(12% + 1vw);
 }
 
 p.grundtext {
-  font-size: 16px;
-  font-size: 0.6vw;
+  font-family: 'Fira Sans';
+  font-weight: 400;
+  color: #031d44;
+  line-height: 1.5;
+  font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
   font-size:calc(100% + 0.6vw);
-  padding-top: 1.5vw;
+  padding-top: 1vw;
   padding-right:calc(16% + 1vw);
   padding-left:calc(12% + 1vw);
 }
 
 ul.grundtext {
-  padding-top: 1.5vw;
+  font-family: 'Fira Sans';
+  font-weight: 400;
+  color: #031d44;
+  line-height: 1.5;
+  font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
   padding-right:calc(16% + 1vw);
   padding-left:calc(12% + 1vw);
+  margin-left:calc(6% + 1vw);
 }
 
 li.grundtext {
-  font-size: 16px;
-  font-size: 0.6vw;
+  font-family: 'Fira Sans';
+  font-weight: 400;
+  color: #031d44;
+  line-height: 1.5;
+  font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
   font-size:calc(100% + 0.6vw);
-  padding-top: 1.5vw;
+  padding-top: 1vw;
   padding-left: calc(1% + 01vw);
   padding-right:calc(16% + 1vw);
 }
 
 a {
   color: inherit !important;
+  text-decoration: none;
+  border-bottom: 1px solid #dab785;
+  box-shadow: inset 0 -4px 0 #dab785;
+  transition: background 0.3s ease-out;
+}
+
+a:hover {
+    background: rgba(218, 183, 133, 0.6);
 }
 
 .jumbotron {
+  font-family: "Playfair Display";
+  font-weight: 700;
   display: flex;
   align-items: center;
   background-color: #031d44;
@@ -122,6 +161,8 @@ a {
 }
 
 .jumbotron h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
   font-size: 120px;
   font-size:calc(110% + 10vw);
   margin: 0;
@@ -134,12 +175,36 @@ a {
 }
 
 .jumbotron h3 {
+  font-family: "Playfair Display";
+  font-weight: 700;
   font-size: 20px;
   font-size: 1vw;
   font-size:calc(100% + 1vw);
   color: #dab785;
   position: absolute;
   float: right;
+}
+
+.small-caps {
+    -moz-font-feature-settings: "c2sc", "smcp";
+    -ms-font-feature-settings: "c2sc", "smcp";
+    -webkit-font-feature-settings: "c2sc", "smcp";
+    font-feature-settings: "c2sc", "smcp";
+    letter-spacing: 0.05em;
+}
+
+.tabular-figures {
+    -moz-font-feature-settings: "tnum";
+    -ms-font-feature-settings: "tnum";
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum";
+}
+
+.oldstyle-figures {
+    -moz-font-feature-settings: "onum";
+    -ms-font-feature-settings: "onum";
+    -webkit-font-feature-settings: "onum";
+    font-feature-settings: "onum";
 }
 
 .btn.btn-primary {
@@ -195,71 +260,57 @@ footer ul {
 }
 
 .experimentelles {
+  font-family: "Playfair Display";
+  font-weight: 700;
   display: block;
   background-size: cover;
-  background-color: #70a288;
-  color: #04395e;
+  color: #031d44;
   font-weight: 700;
   margin-bottom: 0;
   height: auto;
   padding-bottom: 10%;
   min-height: 150px !important;
-}
-
-.experimentelles:hover {
-  background-color: #04395e;
-  color: #70a288;
 }
 
 .lab {
-  display: flex;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  display: block;
   background-size: cover;
-  background-color: #d5896f;
-  color: #dab785;
+  color: #031d44;
   font-weight: 700;
   margin-bottom: 0;
   height: auto;
   padding-bottom: 10%;
   min-height: 150px !important;
-}
-
-.lab:hover {
-  background-color: #dab785;
-  color: #d5896f;
+  float: right;
 }
 
 .case {
-  display: flex;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  display: block;
   background-size: cover;
-  background-color: #dab785;
-  color: #d5896f;
+  color: #031d44;
   font-weight: 700;
   margin-bottom: 0;
   height: auto;
   padding-bottom: 10%;
   min-height: 150px !important;
-}
-
-.case:hover {
-  background-color: #d5896f;
-  color: #dab785;
 }
 
 .diverses {
-  display: flex;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  display: block;
   background-size: cover;
-  background-color: #04395e;
-  color: #70a288;
+  color: #031d44;
   font-weight: 700;
   margin-bottom: 0;
   height: auto;
   padding-bottom: 10%;
   min-height: 150px !important;
-}
-
-.diverses:hover {
-  background-color: #70a288;
-  color: #04395e;
+  float: right;
 }
 
 .nopadding {
@@ -268,24 +319,30 @@ footer ul {
 }
 
 .copy {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  color: #031d44;
+  font-size:calc(100% + 0.6vw);
   text-align: center;
   align-items: center;
   justify-content: center
 }
 
 .back {
+  font-family: "Playfair Display";
+  font-weight: 700;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 9;
   background-color: white;
-  color: black;
+  color: #031d44;
   padding-left: calc(0.5% + 0.1vw);
   position: fixed;
   width: 100%;
   font-size: calc(100% + 1.5vw);
   font-weight: 700;
-  height: calc(8% + 1vw);
+  height: calc(7% + 1vw);
 }
 
 iframe {
@@ -305,18 +362,34 @@ iframe {
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .back {
+    font-family: "Playfair Display";
+    font-weight: 700;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 9;
     background-color: white;
-    color: black;
+    color: #031d44;
     padding-left: calc(3% + 1.1vw);
     position: fixed;
     width: 100%;
-    font-size: calc(100% + 1.5vw);
-    font-weight: 700;
-    height: calc(6% + 1vw);
+    font-size: 2.5em;
+    height: calc(3% + 1vw);
+  }
+
+  body {
+    font-size: 12px !important;
+  }
+
+h1.col-sm-4 {
+  font-size: 2.5em;
+}
+
+  h1 {
+    font-size: 3.5em;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 }
