@@ -10,8 +10,8 @@ body {
     -ms-font-feature-settings: "kern", "liga", "clig", "calt";
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
-  background-color: rgba(218, 183, 133, 0.2) !important;
-  background: rgba(218, 183, 133, 0.2) !important;
+  background-color: rgba(218, 183, 133, 0.1) !important;
+  background: rgba(218, 183, 133, 0.1) !important;
 }
 
 header {
@@ -19,7 +19,6 @@ header {
   padding-bottom: 0.6%;
   z-index: 10;
   position: absolute;
-  background-color: white;
   width: 100%;
 }
 
@@ -47,7 +46,7 @@ header p {
 h1 {
   font-family: "Playfair Display";
   font-size:calc(100% + 4vw);
-  color: #031d44;
+  color: #1c3356;
   font-weight: 700;
   padding-top: 1.5vw;
   padding-left:calc(5% + 1vw);
@@ -66,7 +65,7 @@ video {
 h4.grundtext {
   font-family: "Playfair Display";
   font-weight: 700;
-  color: #031d44;
+  color: #1c3356;
   font-size: 38px;
   font-size: 1.5vw;
   font-size:calc(100% + 1.5vw);
@@ -78,7 +77,7 @@ h4.grundtext {
 h5.grundtext {
   font-family: "Playfair Display";
   font-weight: 700;
-  color: #031d44;
+  color: #1c3356;
   font-size:calc(100% + 1vw);
   padding-top: 2.5vw;
   padding-right:calc(16% + 1vw);
