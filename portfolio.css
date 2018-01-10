@@ -35,7 +35,7 @@ header h1 {
   color: #031d44;
   margin: 0;
   padding-left:calc(2% + 1vw);
-  spacing: 0.3;
+  spacing: 0.5;
 }
 
 header p {
@@ -46,7 +46,7 @@ header p {
 h1 {
   font-family: "Playfair Display";
   font-size:calc(100% + 4vw);
-  color: #1c3356;
+  color: #324766;
   font-weight: 700;
   padding-top: 1.5vw;
   padding-left:calc(5% + 1vw);
@@ -65,29 +65,29 @@ video {
 h4.grundtext {
   font-family: "Playfair Display";
   font-weight: 700;
-  color: #1c3356;
-  font-size: 38px;
-  font-size: 1.5vw;
+  color: #324766;
   font-size:calc(100% + 1.5vw);
   padding-top: 5vw;
   padding-right:calc(16% + 1vw);
   padding-left:calc(12% + 1vw);
+  spacing: 0.3;
 }
 
 h5.grundtext {
   font-family: "Playfair Display";
   font-weight: 700;
-  color: #1c3356;
+  color: #324766;
   font-size:calc(100% + 1vw);
   padding-top: 2.5vw;
   padding-right:calc(16% + 1vw);
   padding-left:calc(12% + 1vw);
+  spacing: 0.3;
 }
 
 p.grundtext {
   font-family: 'Fira Sans';
   font-weight: 400;
-  color: #031d44;
+  color: #1c3356;
   line-height: 1.5;
   font-kerning: normal;
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -103,7 +103,7 @@ p.grundtext {
 ul.grundtext {
   font-family: 'Fira Sans';
   font-weight: 400;
-  color: #031d44;
+  color: #1c3356;
   line-height: 1.5;
   font-kerning: normal;
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -118,7 +118,7 @@ ul.grundtext {
 li.grundtext {
   font-family: 'Fira Sans';
   font-weight: 400;
-  color: #031d44;
+  color: #1c3356;
   line-height: 1.5;
   font-kerning: normal;
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -387,7 +387,7 @@ h1.col-sm-4 {
 }
 
   h1 {
-    font-size: 3.5em;
+    font-size: 4.5em;
     padding-left: 10vw;
     padding-right: 10vw;
   }
