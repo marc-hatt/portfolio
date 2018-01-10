@@ -547,5 +547,5 @@ blockquote .arrow::before {
     top: 1.2rem;
     left: -1.475rem;
     right: auto;
-    border-width: 1.475rem 0 0 1.475rem;
+    border-width: 1.5rem 0 0 1.5rem;
 }
